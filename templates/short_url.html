@@ -2,7 +2,9 @@
 {% block title %}Shortened URL{% endblock %}
 
 {% block content %}
+
+<p>Here is your Shortened URL:</p>
 <h1><a href="http://127.0.0.1:5000/{{short_url}}">http://127.0.0.1:5000/{{short_url}}</a></h1>
     <br>
-<a href="http://127.0.0.1:5000/"> Return Home</a>
+<a class="btn-lg btn-light" id="button1" href="http://127.0.0.1:5000/"> Return Home</a>
 {% endblock %}
